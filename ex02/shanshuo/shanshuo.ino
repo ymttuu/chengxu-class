@@ -14,8 +14,8 @@ void loop() {
   Serial.println("Hello ESP32!");
   digitalWrite(LED_PIN, HIGH);   // 点亮LED
   digitalWrite(LED_PIN_R, HIGH);
-  delay(900);                   // 等待1秒
+  delay(1000);                   // 等待1秒
   digitalWrite(LED_PIN, LOW);    // 熄灭LED
   digitalWrite(LED_PIN_R, LOW);
-  delay(900);              // 等待1秒
+  delay(1000);              // 等待1秒
 }
