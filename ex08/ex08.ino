@@ -89,7 +89,7 @@ void setup() {
     delay(500);
     Serial.print(".");
   }
-  Serial.println("\nWiFi连接成功！");
+  Serial.println("\nWiFi连接成功");
   Serial.print("IP: http://");
   Serial.println(WiFi.localIP());
 
